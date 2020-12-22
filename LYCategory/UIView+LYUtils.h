@@ -49,24 +49,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 设置所有圆角
 - (void)setAllCorner:(CGFloat)radius;
 
-
-#pragma mark - HUD
-
-/// 加载中
-- (void)showLoading;
-
-/// 加载中，带文字
-- (void)showLoadingWith:(nullable NSString *)text;
-
-/// 提示，1.5秒后自动消失
-- (void)showTipWith:(nullable NSString *)text;
-
-/// 提示，delay时长后自动消失
-- (void)showTipWith:(nullable NSString *)text afterDelay:(NSTimeInterval)delay;
-
-/// 隐藏HUD
-- (void)hideHUD;
-
 @end
 
 NS_ASSUME_NONNULL_END

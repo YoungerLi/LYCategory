@@ -18,12 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)colorWith255Red:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue;
 + (UIColor *)colorWith255Red:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
 
-/// 线条颜色
-+ (UIColor *)lineColor;
-
-/// 文字颜色
-+ (UIColor *)textColor;
-
 @end
 
 NS_ASSUME_NONNULL_END

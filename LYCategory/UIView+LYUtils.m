@@ -68,44 +68,4 @@
     self.layer.mask = maskLayer;
 }
 
-
-- (void)showLoading {
-    [MBProgressHUD hideHUDForView:self animated:NO];
-    [MBProgressHUD showHUDAddedTo:self animated:YES];
-}
-
-- (void)showLoadingWith:(NSString *)text {
-    [MBProgressHUD hideHUDForView:self animated:NO];
-    if ([text isNotBlank]) {
-        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self animated:YES];
-        hud.label.text = text;
-    }
-}
-
-- (void)showTipWith:(NSString *)text {
-    [MBProgressHUD hideHUDForView:self animated:NO];
-    if ([text isNotBlank]) {
-        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self animated:YES];
-        hud.mode = MBProgressHUDModeText;
-        hud.label.numberOfLines = 0;
-        hud.label.text = text;
-        [hud hideAnimated:YES afterDelay:1.5];
-    }
-}
-
-- (void)showTipWith:(NSString *)text afterDelay:(NSTimeInterval)delay {
-    [MBProgressHUD hideHUDForView:self animated:NO];
-    if ([text isNotBlank]) {
-        MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self animated:YES];
-        hud.mode = MBProgressHUDModeText;
-        hud.label.numberOfLines = 0;
-        hud.label.text = text;
-        [hud hideAnimated:YES afterDelay:delay];
-    }
-}
-
-- (void)hideHUD {
-    [MBProgressHUD hideHUDForView:self animated:YES];
-}
-
 @end
