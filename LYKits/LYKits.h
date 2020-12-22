@@ -1,12 +1,12 @@
 //
-//  LYCategory.h
-//  LYCategory <https://github.com/YoungerLi/LYCategory.git>
+//  LYKits.h
+//  LYKits <https://github.com/YoungerLi/LYKits.git>
 //
 //  Created by 李杨 on 2020/12/11.
 //
 
-#ifndef LYCategory_h
-#define LYCategory_h
+#ifndef LYKits_h
+#define LYKits_h
 
 #import "NSDictionary+LYUtils.h"
 #import "NSString+LYUtils.h"
@@ -16,4 +16,4 @@
 #import "UILabel+LYUtils.h"
 #import "UIView+LYUtils.h"
 
-#endif /* LYCategory_h */
+#endif /* LYKits_h */
