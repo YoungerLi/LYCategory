@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "LYKits"
-  s.version      = "0.0.1"
-  s.summary      = "常用的分类"
+  s.version      = "0.0.2"
+  s.summary      = "Common category for iOS"
   s.homepage     = "https://github.com/YoungerLi/LYKits"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "LiYang" => "liyang2696@163.com" }
